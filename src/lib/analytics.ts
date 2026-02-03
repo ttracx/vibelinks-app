@@ -1,5 +1,5 @@
 import { headers } from "next/headers";
-import UAParser from "ua-parser-js";
+import { UAParser } from "ua-parser-js";
 
 export interface ClickData {
   ip: string | null;
