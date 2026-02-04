@@ -325,8 +325,18 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="mt-24 text-center text-gray-500 text-sm">
-          <p>© 2025 VibeLinks. Powered by VibeCaaS.</p>
+        <footer className="mt-24 text-center text-gray-400 text-sm border-t border-white/10 pt-8">
+          <p>
+            © 2026 VibeLinks powered by{" "}
+            <a href="https://vibecaas.com/" className="text-cyan-400 hover:underline" target="_blank" rel="noopener noreferrer">
+              VibeCaaS.com
+            </a>{" "}
+            a division of{" "}
+            <a href="https://neuralquantum.ai/" className="text-cyan-400 hover:underline" target="_blank" rel="noopener noreferrer">
+              NeuralQuantum.ai LLC
+            </a>
+            . All rights reserved.
+          </p>
         </footer>
       </div>
     </div>
